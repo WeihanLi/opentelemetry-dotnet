@@ -64,7 +64,7 @@ namespace OpenTelemetry.Trace
         }
         
         /// <summary>
-        /// The desired probability of sampling. This must be between 0.0 and 1.0.
+        /// The desired probability of sampling. This must be between 0.0 and 1.0. Same as the <c>probability</c> constructor parameter
         /// Higher the value, higher is the probability of a given Activity to be sampled in.
         /// </summary>
         public double Probability => probability;
